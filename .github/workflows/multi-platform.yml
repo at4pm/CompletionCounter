@@ -58,4 +58,4 @@ jobs:
 
       - uses: hiimjustin000/release-geode-mod@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
