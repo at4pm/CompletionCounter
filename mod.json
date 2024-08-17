@@ -7,8 +7,11 @@
 		"ios": "2.206"
 	},
 	"id": "ata.completions",
-	"name": "Completions",
+	"name": "Completion Counter",
 	"version": "v1.0.0",
 	"developer": "ata",
-	"description": "Adds a completion counter to the LevelInfoLayer"
+	"description": "Adds a completion counter to the LevelInfoLayer",
+	"links": {
+		"source": "https://github.com/at4pm/CompletionCounter"
+	}
 }

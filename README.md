@@ -1,9 +1,14 @@
-# Completions
+# Completion Counter
 *I forgot how many times I beat the nightmare*
 
 ## Features
-- Adds a counter to the LevelInfoLayer for how many times you beat a level
+Adds a counter to the LevelInfoLayer for how many times you beat a level
+
+## Usage
+1. Install the mod using the [Geode SDK](https://geode-sdk.org).
+2. Open the LevelInfoLayer of a level.
 
 ## Credits
-- gdjayy - Initial idea for the mod
-- at4pm - Creator of the mod
+- @at4pm - Creator of the mod
+- @gdjayy - Initial idea for the mod
+- @datacocat - Additional ideas for the mod
