@@ -2,9 +2,6 @@ name: Build Geode Mod
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "**"
 
 jobs:
   build:
@@ -53,3 +50,15 @@ jobs:
         with:
           name: Build Output
           path: ${{ steps.build.outputs.build-output }}
+
+  release:
+    name: Release the mod
+    runs-on: ubuntu-latest
+    needs: ['package']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hiimjustin000/release-geode-mod@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
