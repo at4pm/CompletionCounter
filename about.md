@@ -1,5 +1,5 @@
 # Completion Counter
-*I forgot how many times I beat the nightmare*
+I forgot how many times I beat the nightmare
 
 ## Features
 Adds a counter to the LevelInfoLayer for how many times you beat a level
