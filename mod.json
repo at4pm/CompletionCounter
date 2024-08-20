@@ -7,10 +7,17 @@
 	},
 	"id": "ata.completions",
 	"name": "Completion Counter",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "ata",
 	"description": "Adds a completion counter to the LevelInfoLayer",
 	"links": {
 		"source": "https://github.com/at4pm/CompletionCounter"
-	}
+	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": "1.13.2",
+			"importance": "required"
+		}
+	]
 }
