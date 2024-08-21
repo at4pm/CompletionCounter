@@ -13,7 +13,7 @@ class $modify(LevelInfoLayer) {
 		
 		auto parent = this->getChildByID("normal-mode-bar");
 		if (parent) {
-			auto fire = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("GJ_epicCoin_001.png"), nullptr, nullptr);
+			auto fire = CCSprite::createWithSpriteFrameName("GJ_epicCoin_001.png");
 			fire->setPosition({ -36.0f, 5.0f });
 			fire->setID("completion-fire");
 				
