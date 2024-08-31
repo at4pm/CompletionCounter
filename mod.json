@@ -8,7 +8,7 @@
 	},
 	"id": "ata.completions",
 	"name": "Completion Counter",
-	"version": "v1.0.3",
+	"version": "v1.0.4",
 	"developer": "ata",
 	"description": "Adds a completion counter to the LevelInfoLayer",
 	"links": {
